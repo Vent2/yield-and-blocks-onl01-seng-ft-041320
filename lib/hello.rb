@@ -7,5 +7,5 @@ end
 
 hello_t([Ali, Jasmine, Persephone]) do |name|
   name.map { |e| e.upcase  }
-
+  return name
 end
