@@ -1,9 +1,9 @@
 def hello_t(array)
   i = 0
-
-  while i < array.length
-    yield array[i]
+  if i < array.length
+    puts "Hey! Np block was given!"
     i = i + 1
+  else  
+    yield array[i]
   end
-  return "Hey! No block was given!"
 end
