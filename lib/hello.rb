@@ -1,6 +1,6 @@
 def hello_t(arr)
   arr.each do |i|
-    puts "Hi #{i}"
+    puts "#{i}"
   end
 end
 
