@@ -1,3 +1,4 @@
 def hello_t
-  yield
+  value = yield
+  return value
 end
