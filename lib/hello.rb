@@ -3,5 +3,3 @@ def hello_t(arr)
   return arr
   other_names = arr.upcase
 end
-
-
