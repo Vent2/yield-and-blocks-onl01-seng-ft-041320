@@ -6,7 +6,5 @@ def hello_t(arr)
 end
 
 hello_t(array) do |name|
-  shout = []
   name.upcase
-  shout << name
 end
