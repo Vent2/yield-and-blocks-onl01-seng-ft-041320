@@ -4,3 +4,4 @@ def hello_t(arr)
 end
 
 hello_t(["Tim", "Tom", "Jim").each {|e| puts "#{e}"}
+end
