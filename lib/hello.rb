@@ -3,5 +3,6 @@ def hello_t(arr)
   return arr
 end
 
-hello_t(["Tim", "Tom", "Jim"]).each {|e| puts "#{e}"}
+hello_t(["Tim", "Tom", "Jim"]).each do |i|
+  puts "#{i}"
 end
