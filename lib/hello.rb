@@ -5,5 +5,5 @@ def hello_t(arr)
   return arr
 end
 
-hello_t(name) {|i| puts i.upcase}
+hello_t(arr) {|i| puts i.upcase}
 end
