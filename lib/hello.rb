@@ -1,8 +1,5 @@
-def hello_t(arr)
-  yield(arr)
-  return arr
+def hello_t
+  yield
 end
 
-hello_t do
-  return arr.upcase
-end
+
