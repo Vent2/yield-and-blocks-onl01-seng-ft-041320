@@ -3,6 +3,6 @@ def hello_t(arr)
   return arr
 end
 
-hello_t(Array).each do |i|
-  i.upcase
+hello_t do
+  yield(arr.upcase)
 end
