@@ -3,7 +3,7 @@ def hello_t(array)
   if i < array.length
     puts "Hey! Np block was given!"
     i = i + 1
-  else  
+  else
     yield array[i]
   end
 end
