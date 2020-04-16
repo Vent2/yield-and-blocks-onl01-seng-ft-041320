@@ -6,4 +6,3 @@ def hello_t(arr)
 end
 
 hello_t(arr) {|i| puts i.upcase}
-end
