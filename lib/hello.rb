@@ -5,5 +5,5 @@ def hello_t(arr)
 end
 binding.pry
 results1 = hello_t(Array) do |name|
-  name.map { |e| puts e }
+  name.map { |e| puts "#{e}" }
 end
