@@ -5,5 +5,5 @@ def hello_t(arr)
 end
 
 hello_t(Array) do |name|
-  puts "#{name}"
+  return "#{name}"
 end
