@@ -5,5 +5,5 @@ def hello_t(arr)
 end
 
 results1 = hello_t(Array) do |name|
-  name.map { |e| puts "#{e}" }
+  name.collect { |e| puts "#{e}" }
 end
