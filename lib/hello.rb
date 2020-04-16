@@ -1,3 +1,4 @@
-def hello_t
-
+def hello_t(arr)
+  yield
+  return arr
 end
