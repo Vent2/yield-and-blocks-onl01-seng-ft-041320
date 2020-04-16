@@ -6,4 +6,6 @@ end
 
 hello_t(arr) do |x|
   if x == 0
-    puts ""
+    puts "Hey"
+  end
+end
