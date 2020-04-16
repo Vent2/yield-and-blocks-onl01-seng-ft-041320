@@ -4,8 +4,8 @@ def hello_t(arr)
   yeild(arr)
 end
 
-hello_t(arr) do |x|
-  if x == 0
+hello_t(arr) do
+  if arr == 0
     puts "Hey"
   end
 end
