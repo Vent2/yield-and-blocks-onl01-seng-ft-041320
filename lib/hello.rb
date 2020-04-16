@@ -5,5 +5,5 @@ def hello_t(arr)
 end
 
 hello_t(Array) do |name|
-  return "#{name}"
+  name.each{|e| return "#{e}"}
 end
