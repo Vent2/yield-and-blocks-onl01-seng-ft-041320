@@ -6,3 +6,5 @@ def hello_t(arr)
 end
 
 hello_t([Ali, Jasmine, Persephone])
+
+end
