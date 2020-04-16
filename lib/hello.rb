@@ -5,4 +5,4 @@ def hello_t(arr)
   return arr
 end
 
-hello_t(arr) {|i| puts i.upcase}
+hello_t(Array) {|i| puts i.upcase}
