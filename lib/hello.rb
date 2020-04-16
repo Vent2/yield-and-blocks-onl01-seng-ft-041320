@@ -3,4 +3,4 @@ def hello_t(arr)
   return arr
 end
 
-hello_t(other_names){ |name| puts name.upcase } 
+hello_t(other_names){ |name| puts name.upcase }
