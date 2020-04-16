@@ -5,7 +5,7 @@ def hello_t(arr)
   return arr
 end
 
-hello_t([Ali, Jasmine, Persephone]) do |name|
+hello_t([]) do |name|
   name.map { |e| e.upcase  }
   return name
 end
