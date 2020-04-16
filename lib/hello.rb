@@ -3,4 +3,4 @@ def hello_t(arr)
   return arr
 end
 
-hello_t(Array) {|i| Array.upcase << i}
+hello_t(Array) {|i| .upcase << i}
