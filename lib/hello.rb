@@ -4,5 +4,5 @@ def hello_t(arr)
 end
 
 hello_t(["Tim", "Tom", "Jim"]).each do |i|
-  yield{ puts "#{i}"}
+  yield puts "#{i}"
 end
