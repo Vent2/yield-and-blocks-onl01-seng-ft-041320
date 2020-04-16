@@ -1,7 +1,5 @@
 def hello_t(arr)
-  arr.each do |i|
-    puts "#{i}".upcase
-  end
+  yeild(arr)
 end
 
 # call your method here!
