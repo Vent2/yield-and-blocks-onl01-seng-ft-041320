@@ -4,5 +4,5 @@ def hello_t(arr)
 end
 
 hello_t do
-  yield(arr.upcase)
+  return arr.upcase
 end
