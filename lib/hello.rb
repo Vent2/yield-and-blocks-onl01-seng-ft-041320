@@ -5,7 +5,9 @@ def hello_t(arr)
   return arr
 end
 
-hello_t([]) do |name|
-  name.map { |e| e.upcase  }
-  return name
+hello_t(array) do |name|
+  shout = []
+  name.upcase
+  shout << name
+  end
 end
